@@ -1,0 +1,137 @@
+[
+  {
+    "id": "6930-75918-0000",
+    "expected": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "actual": "Concorde returned to its place amidst the tents.",
+    "wer": 0.125,
+    "cer": 0.021739130434782608,
+    "audio_duration_seconds": 3.505,
+    "inference_seconds": 1.368291400023736
+  },
+  {
+    "id": "6930-75918-0001",
+    "expected": "THE ENGLISH FORWARDED TO THE FRENCH BASKETS OF FLOWERS OF WHICH THEY HAD MADE A PLENTIFUL PROVISION TO GREET THE ARRIVAL OF THE YOUNG PRINCESS THE FRENCH IN RETURN INVITED THE ENGLISH TO A SUPPER WHICH WAS TO BE GIVEN THE NEXT DAY",
+    "actual": "The English forwarded to the French baskets of flowers of which they had made a plentiful provision to greet the arrival of the young princess. The French, in return, invited the English to a supper, which was to be given the next day.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "audio_duration_seconds": 14.225,
+    "inference_seconds": 1.8849439999321476
+  },
+  {
+    "id": "6930-75918-0002",
+    "expected": "CONGRATULATIONS WERE POURED IN UPON THE PRINCESS EVERYWHERE DURING HER JOURNEY",
+    "actual": "Congratulations, we're poured in upon the princess everywhere during her journey.",
+    "wer": 0.09090909090909091,
+    "cer": 0.01282051282051282,
+    "audio_duration_seconds": 5.025,
+    "inference_seconds": 1.4354428000515327
+  },
+  {
+    "id": "6930-75918-0003",
+    "expected": "FROM THE RESPECT PAID HER ON ALL SIDES SHE SEEMED LIKE A QUEEN AND FROM THE ADORATION WITH WHICH SHE WAS TREATED BY TWO OR THREE SHE APPEARED AN OBJECT OF WORSHIP THE QUEEN MOTHER GAVE THE FRENCH THE MOST AFFECTIONATE RECEPTION FRANCE WAS HER NATIVE COUNTRY AND SHE HAD SUFFERED TOO MUCH UNHAPPINESS IN ENGLAND FOR ENGLAND TO HAVE MADE HER FORGET FRANCE",
+    "actual": "From the respect paid her on all sides, she seemed like a queen, and from the adoration with which she was treated by two or three, she appeared an object of worship. The queen mother gave the French the most affectionate reception. France was her native country, and she had suffered too much unhappiness in England for England to have made her forget France.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "audio_duration_seconds": 23.315,
+    "inference_seconds": 2.012316400068812
+  },
+  {
+    "id": "6930-75918-0004",
+    "expected": "SHE TAUGHT HER DAUGHTER THEN BY HER OWN AFFECTION FOR IT THAT LOVE FOR A COUNTRY WHERE THEY HAD BOTH BEEN HOSPITABLY RECEIVED AND WHERE A BRILLIANT FUTURE OPENED BEFORE THEM",
+    "actual": "She taught her daughter, then, by her own affection for it, that love for a country where they had both been hospitably received and where a brilliant future opened for them.",
+    "wer": 0.03225806451612903,
+    "cer": 0.017341040462427744,
+    "audio_duration_seconds": 11.065,
+    "inference_seconds": 1.4978644999209791
+  },
+  {
+    "id": "6930-75918-0005",
+    "expected": "THE COUNT HAD THROWN HIMSELF BACK ON HIS SEAT LEANING HIS SHOULDERS AGAINST THE PARTITION OF THE TENT AND REMAINED THUS HIS FACE BURIED IN HIS HANDS WITH HEAVING CHEST AND RESTLESS LIMBS",
+    "actual": "The Count had thrown himself back on his seat, leaning his shoulders against the partition of the tent and remained thus. His face buried in his hands with heaving chest and restless limbs.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "audio_duration_seconds": 13.16,
+    "inference_seconds": 1.5395795999793336
+  },
+  {
+    "id": "6930-75918-0006",
+    "expected": "THIS HAS INDEED BEEN A HARASSING DAY CONTINUED THE YOUNG MAN HIS EYES FIXED UPON HIS FRIEND",
+    "actual": "This has indeed been a harassing day continued the young man his eyes fixed upon his friend.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "audio_duration_seconds": 5.85,
+    "inference_seconds": 1.3936879999237135
+  },
+  {
+    "id": "6930-75918-0007",
+    "expected": "YOU WILL BE FRANK WITH ME I ALWAYS AM",
+    "actual": "You will be frank with me. I always am.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "audio_duration_seconds": 3.315,
+    "inference_seconds": 1.2449219999834895
+  },
+  {
+    "id": "6930-75918-0008",
+    "expected": "CAN YOU IMAGINE WHY BUCKINGHAM HAS BEEN SO VIOLENT I SUSPECT",
+    "actual": "Can you imagine why Buckingham has been so violent? I suspect.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "audio_duration_seconds": 4.785,
+    "inference_seconds": 1.2669780000578612
+  },
+  {
+    "id": "6930-75918-0009",
+    "expected": "IT IS YOU WHO ARE MISTAKEN RAOUL I HAVE READ HIS DISTRESS IN HIS EYES IN HIS EVERY GESTURE AND ACTION THE WHOLE DAY",
+    "actual": "It is you who are mistaken, Raul, I have read his distress in his eyes in his every gesture and action the whole day.",
+    "wer": 0.041666666666666664,
+    "cer": 0.008695652173913044,
+    "audio_duration_seconds": 7.28,
+    "inference_seconds": 1.4730731999734417
+  },
+  {
+    "id": "6930-75918-0010",
+    "expected": "I CAN PERCEIVE LOVE CLEARLY ENOUGH",
+    "actual": "I can perceive love clearly enough.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "audio_duration_seconds": 3.035,
+    "inference_seconds": 1.2545814999612048
+  },
+  {
+    "id": "6930-75918-0011",
+    "expected": "I AM CONVINCED OF WHAT I SAY SAID THE COUNT",
+    "actual": "I am convinced of what I say, said the Count.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "audio_duration_seconds": 3.195,
+    "inference_seconds": 1.2745254000183195
+  },
+  {
+    "id": "6930-75918-0012",
+    "expected": "IT IS ANNOYANCE THEN",
+    "actual": "It is annoyance then.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "audio_duration_seconds": 1.94,
+    "inference_seconds": 1.20840300002601
+  },
+  {
+    "id": "6930-75918-0013",
+    "expected": "IN THOSE VERY TERMS I EVEN ADDED MORE",
+    "actual": "In those very terms, I even added more.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "audio_duration_seconds": 2.94,
+    "inference_seconds": 1.2076852000318468
+  },
+  {
+    "id": "6930-75918-0014",
+    "expected": "BUT CONTINUED RAOUL NOT INTERRUPTED BY THIS MOVEMENT OF HIS FRIEND HEAVEN BE PRAISED THE FRENCH WHO ARE PRONOUNCED TO BE THOUGHTLESS AND INDISCREET RECKLESS EVEN ARE CAPABLE OF BRINGING A CALM AND SOUND JUDGMENT TO BEAR ON MATTERS OF SUCH HIGH IMPORTANCE",
+    "actual": "But, continued row, not interrupted by this movement of his friend, heaven be praised the French, who are pronounced to be thoughtless and indiscreet, reckless even, are capable of bringing a calm and sound judgment to bear on matters of such high importance.",
+    "wer": 0.023255813953488372,
+    "cer": 0.011811023622047244,
+    "audio_duration_seconds": 16.84,
+    "inference_seconds": 1.7515494000399485
+  }
+]

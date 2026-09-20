@@ -1,0 +1,87 @@
+name: Voice AI QA
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  unit-tests:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: |
+          pytest -m "not evaluation" -v
+
+
+  voice-evaluation:
+    name: Voice AI Evaluation
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install system audio dependency
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libsndfile1
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download golden speech dataset
+        run: |
+          python -m scripts.download_golden_dataset
+
+      - name: Generate controlled SNR scenarios
+        run: |
+          python -m scripts.generate_noise_dataset
+
+      - name: Run clean baseline
+        run: |
+          python -m scripts.run_baseline
+
+      - name: Run noise robustness benchmark
+        run: |
+          python -m scripts.run_noise_benchmark
+
+      - name: Run evaluation tests
+        run: |
+          pytest -m evaluation -v
+
+      - name: Apply release quality gate
+        run: |
+          python -m scripts.check_quality_gate
+
+      - name: Upload evaluation reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: voice-ai-evaluation-reports
+          path: reports/

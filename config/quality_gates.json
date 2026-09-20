@@ -1,0 +1,30 @@
+{
+  "clean": {
+    "reference_wer": 0.0209,
+    "max_wer_regression": 0.0200,
+    "reference_latency_seconds": 1.48,
+    "max_latency_regression_ratio": 0.35,
+    "enforce_latency": false
+  },
+  "snr_20db": {
+    "reference_wer": 0.0269,
+    "max_wer_regression": 0.0200,
+    "reference_latency_seconds": 1.50,
+    "max_latency_regression_ratio": 0.35,
+    "enforce_latency": false
+  },
+  "snr_10db": {
+    "reference_wer": 0.0592,
+    "max_wer_regression": 0.0300,
+    "reference_latency_seconds": 1.47,
+    "max_latency_regression_ratio": 0.35,
+    "enforce_latency": false
+  },
+  "snr_5db": {
+    "reference_wer": 0.1156,
+    "max_wer_regression": 0.0500,
+    "reference_latency_seconds": 1.64,
+    "max_latency_regression_ratio": 0.35,
+    "enforce_latency": false
+  }
+}
